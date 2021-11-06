@@ -2,13 +2,13 @@
    "repository": {
       "type": "story",
       "organization": "3exiteers",  
-      "repository": "story-teaser-de",
+      "repository": "story-teaser01-de",
       "private": true
    },
    "name": "teaser",
    "version": 1.0,
    "type": "story",
-   "id": "teaser-de",
+   "id": "teaser01-de",
    "tag": ["exclusive"],
    "level":["easy"],
    "license": "MIT",
