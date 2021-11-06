@@ -14,7 +14,7 @@
    "license": "MIT",
    "language": "de",
    "description": "",
-   "banner": "",
+   "banner": "banner.png",
    "credits": "Sound effects and music obtained from <a href='https://www.zapsplat.com'>https://www.zapsplat.com</a>. Images and photos optained from <a href='https://unsplash.com'>https://unsplash.com</a>.",
    "start_chapter": "0-intro",
    "final_chapter": "7-Bonus-done",
