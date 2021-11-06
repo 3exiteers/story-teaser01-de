@@ -5,7 +5,7 @@
       "repository": "story-teaser-de",
       "private": true
    },
-   "name": "Teaser",
+   "name": "teaser",
    "version": 1.0,
    "type": "story",
    "id": "teaser-de",
