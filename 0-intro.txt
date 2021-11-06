@@ -1,0 +1,28 @@
+[blockquote:{filename:assets/3e.png}{content:<p> Wir freuen uns, dass ihr unser Exit Game spielt. Wir möchten euch vorab gerne einige ergänzende Hinweise geben. Diese sind nicht relevant für die Geschichte, jedoch unterstützen diese das Erlebnis.</p>}]
+
+<p>&nbsp;</p>
+
+<h4>Punktesystem</h4>
+
+<p>Folgende Punkte gelten:</p>
+
+<ul>
+<li><strong>+10 Punkte</strong> bei Eintritt in verschiedene Kapitel</li>
+<li><strong>-5 Punkte</strong> bei Eingabe eines nicht erfolgreichen Lösungsversuches</li>
+<li><strong>-5 Punkte</strong> bei Nutzung eines normalen Hinweises</li>
+<li><strong>-10 Punkte</strong> bei Nutzung eines erweiterten Hinweises (mit Lösung)</li>
+</ul>
+
+<p>Das Punktesystem verwendet in diesem Exit Game nur den Wertebereich <strong>0 Punkte</strong> bis <strong>100 Punkte</strong>. Punkteentwicklungen unter oder über diesen Bereich werden ignoriert.</p>
+
+<p>&nbsp;</p>
+
+<h4>Fortschrittsanzeige</h4>
+
+<p>Innerhalb des Spiels wird oberhalb des Spielbereichs der bereits erreichte Fortschritt für das spielende Team angezeigt. Team-Mitglieder haben - auch nachträglich - die Möglichkeit zu jedem bereits erreichten Kapitel zu springen. Zudem wird die aktuelle Position und die Art von Herausforderung in den Kapiteln an das Team gestellt wird.</p>
+
+<p>&nbsp;</p>
+
+<h4>Hinweis zu Bild- und Tonmaterialien</h4>
+
+<p>Wir nutzen Musik von <a href='' target=_blank>Bensound</a> und <a href='' target=_blank>Zapsplat</a>.</p>

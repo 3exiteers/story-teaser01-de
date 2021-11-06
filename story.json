@@ -1,0 +1,99 @@
+{
+   "repository": {
+      "type": "story",
+      "organization": "3exiteers",  
+      "repository": "story-teaser-de",
+      "private": true
+   },
+   "name": "Teaser",
+   "version": 1.0,
+   "type": "story",
+   "id": "teaser-de",
+   "tag": ["exclusive"],
+   "level":["easy"],
+   "license": "MIT",
+   "language": "de",
+   "description": "",
+   "banner": "",
+   "credits": "Sound effects and music obtained from <a href='https://www.zapsplat.com'>https://www.zapsplat.com</a>. Images and photos optained from <a href='https://unsplash.com'>https://unsplash.com</a>.",
+   "start_chapter": "0-intro",
+   "final_chapter": "7-Bonus-done",
+   "point_limits": {
+      "min": 0,
+      "max": 100
+   },
+   "variables":{
+        "title": "Teaser",
+        "subtitle":"Vorstellung"
+   },
+   "chapter":{
+      "0-intro":{
+         "name": "Intro",
+         "description": "Technical notes",
+         "content": {
+               "title": "%%%variable:title%%%",
+               "subtitle": "%%%variable:subtitle%%%",
+               "header": "Vorab einige Hinweise zum Spiel",
+               "body": "{file:0-intro.txt}",
+               "header_background": "",
+         "side_left_top": "",
+         "side_left_bottom": "",
+         "side_right_top": "",
+         "side_right_bottom": ""
+         },
+         "timer": {
+               "minutes": 0,
+               "next": ""
+         },
+         "quest": "",
+         "points": {
+               "enter": 0,
+               "hints" : {
+                  "1": null,
+                  "2": null,
+                  "3": null
+               }
+         },
+         "solution":{
+               "casesensitive": false,
+               "trim": true,
+               "substring": true,
+               "strip_whitespaces": true
+         },
+         "next": "1-next{label:Spiel starten!}"
+      },
+      "1-next":{
+         "name": "Digitalisierung",
+         "description": "The preparation",
+         "content": {
+               "title": "%%%variable:title%%%",
+               "subtitle": "%%%variable:subtitle%%%",
+               "header": "Onboarding in der Weihnachtsfabrik",
+               "body": "{file:1-start.txt}"
+         },
+         "timer": {
+               "minutes": 0,
+               "next": ""
+         },
+         "quest": "",
+         "points": {
+               "enter": 10,
+               "incorrect_solution": 0,
+               "nonsolution_hint": -5,
+               "solution_hint": -10,
+               "hints" : {
+                  "1": null,
+                  "2": null,
+                  "3": null
+               }
+         },
+         "solution":{
+               "casesensitive": false,
+               "trim": true,
+               "substring": true,
+               "strip_whitespaces": true
+         },
+         "next": "2-laufband{label:Ihr folgt Three-E}"
+      }
+   }
+}
