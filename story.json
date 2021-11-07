@@ -29,7 +29,7 @@
    "chapter":{
       "0-intro":{
          "name": "Intro",
-         "description": "Technical notes",
+         "description": "Technical notes test",
          "content": {
                "title": "%%%variable:title%%%",
                "subtitle": "%%%variable:subtitle%%%",
