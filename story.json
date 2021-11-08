@@ -1,695 +1,99 @@
 {
     "repository": {
-        "type": "story",
-        "organization": "3exiteers",  
-        "repository": "story-teaser01-de",
-        "private": true
-      },
-    "name": "Teaser 01",
+       "type": "story",
+       "organization": "3exiteers",  
+       "repository": "story-teaser01-de",
+       "private": true
+    },
+    "name": "Test",
     "version": 1.0,
     "type": "story",
-    "id": "teaser01",
+    "id": "teaser01-de",
     "tag": ["exclusive"],
     "level":["easy"],
     "license": "MIT",
     "language": "de",
-    "description": "AAA",
-    "banner": "",
-    "credits": "Sound effects and music obtained from <a href='https://www.zapsplat.com'>https://www.zapsplat.com</a>. Images and photos obtained from <a href='https://unsplash.com'>https://unsplash.com</a>.",
+    "description": "",
+    "banner": "banner.png",
+    "credits": "Sound effects and music obtained from <a href='https://www.zapsplat.com'>https://www.zapsplat.com</a>. Images and photos optained from <a href='https://unsplash.com'>https://unsplash.com</a>.",
     "start_chapter": "0-intro",
-    "final_chapter": "4-demo",
+    "final_chapter": "7-Bonus-done",
     "point_limits": {
-        "min": 0,
-        "max": 50
+       "min": 0,
+       "max": 100
     },
-    "variables": {
-        "title": "Teaser 01",
-        "subtitle": "Ein exklusives Exit Game"
+    "variables":{
+         "title": "Teaser",
+         "subtitle":"Vorstellung"
     },
     "chapter":{
-        "0-intro":{
-            "name": "Intro",
-            "description": "Technische Hinweise",
-            "content": {
+       "0-intro":{
+          "name": "Intro",
+          "description": "Technical notes test",
+          "content": {
                 "title": "%%%variable:title%%%",
                 "subtitle": "%%%variable:subtitle%%%",
-                "header": "Wichtige Hinweise zum Spiel",
-                "body": "{file:0-intro.txt}"
-            },
-            "timer": {
+                "header": "Vorab einige Hinweise zum Spiel",
+                "body": "{file:0-intro.txt}",
+                "header_background": "",
+          "side_left_top": "",
+          "side_left_bottom": "",
+          "side_right_top": "",
+          "side_right_bottom": ""
+          },
+          "timer": {
                 "minutes": 0,
                 "next": ""
-            },
-            "quest": "",
-            "points": {
+          },
+          "quest": "",
+          "points": {
                 "enter": 0,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
                 "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
+                   "1": null,
+                   "2": null,
+                   "3": null
                 }
-            },
-            "solution":{
+          },
+          "solution":{
                 "casesensitive": false,
                 "trim": true,
                 "substring": true,
                 "strip_whitespaces": true
-            },
-            "next": "0-prequel{label:Eure Reise beginnt...}"
-        },
-        "0-prequel":{
-            "name": "Prequel",
-            "description": "Die Vorbereitung",
-            "content": {
+          },
+          "next": "1-next{label:Spiel starten!}"
+       },
+       "1-next":{
+          "name": "Digitalisierung",
+          "description": "The preparation",
+          "content": {
                 "title": "%%%variable:title%%%",
                 "subtitle": "%%%variable:subtitle%%%",
-                "header": "Eine unverhoffte Einladung",
-                "body": "{file:0-prequel.txt}"
-            },
-            "timer": {
+                "header": "Onboarding in der Weihnachtsfabrik",
+                "body": "{file:1-start.txt}"
+          },
+          "timer": {
                 "minutes": 0,
                 "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 50,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "0-prolog{label:Am Flughafen}"
-        },
-        "0-prolog":{
-            "name": "Prolog",
-            "description": "First chapter - prolog",
-            "content" : {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Die Vorbereitung beginnt",
-                "body": "{file:0-prolog.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 0,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "1-gate{label:Zum Gate}"
-        },
-        "1-gate": {
-            "name": "Am Gate",
-            "description": "Erstes Kapitel",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Auf der Suche nach dem Gate",
-                "body": "{file:1-gate.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "shiphol002-de",
-            "points": {
-                "enter": 0,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "relaxing-flight{label: Im Flugzeug}"
-        },
-        "relaxing-flight": {
-            "name": "Im Flieger",
-            "description": "Der Flugzeugabsturz",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Endlich an Bord der Fliegers",
-                "body": "{file:2-relaxing-flight.txt}"
-            },
-            "timer": {
-                "show": true,
-                "delay": 0.5,
-                "init_sound": "2-mayday_zapsplat.mp3",
-                "tick_sound": "2-countdown_tick.mp3",
-                "tick_warning": 30,
-                "minutes": 15,
-                "next": "hard-landing"
-            },
-            "quest": "gplus0001-de",
-            "points": {
-                "enter": 5,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": false,
-                "strip_whitespaces": true
-            },
-            "next": "crash-site{label:Überlebenchance 3%?}"
-        },
-        "crash-site": {
-            "name": "Bruchlandung",
-            "description": "bruchlandung",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Die Bruchlandung",
-                "body": "{file:3-crash-site.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 5,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "palms-shadow{label:Zur Oase}"
-        },
-        "hard-landing": {
-            "name": "Harte Bruchlandung",
-            "description": "hard-landing",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Eine harte Bruchlandung",
-                "body": "{file:3-hard-landing.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": -10,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "palms-shadow{label: Zur Oase}"
-        },
-        "palms-shadow": {
-            "name": "Oase",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Die einsame Palme",
-                "body": "{file:4-palms-shadow.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 5,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "#junction:[{chapter:temple-site}{label:Zum Tempel},{chapter:desert-village}{label:Zum Dorf}] => [{chapter:night-sky}{label:Durch die Wüste}{precondition:bright-gangway,exit-this-way}]"
-        },
-        "temple-site": {
-            "name": "Tempel",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Der Tempel",
-                "body": "{file:5-temple-site.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "tridoku001-de",
-            "points": {
-                "enter": 5,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "inner-temple{label: In den Tempel hineingehen}"
-        },
-        "inner-temple": {
-            "name": "Im Tempel",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Im Tempel",
-                "body": "{file:6-inner-temple.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 5,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "bright-gangway{label:In den hellen Gang}"
-        },
-        "desert-village": {
-            "name": "Im Dorf",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Im Dorf",
-                "body": "{file:5-village.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "village001-de",
-            "points": {
-                "enter": 5,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "to-the-tunnel{label:In den Tunnel hineingehen}"
-        },
-        "to-the-tunnel": {
-            "name": "Tunnel",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "In den Stollen",
-                "body": "{file:6-tunnel.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 5,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "dark-tunnel{label:In den Stollen}"
-        },
-        "bright-gangway": {
-            "name": "Heller Gang",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Der helle Gang",
-                "body": "{file:7-bright-gangway.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "mirror001-de",
-            "points": {
-                "enter": 5,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": false,
-                "strip_whitespaces": true
-            },
-            "next": "brighter-way{label:In den hellen Gang gehen}"
-        },
-        "brighter-way": {
-            "name": "Nach dem hellen Gang",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Nach dem hellen Gang",
-                "body": "{file:8-brighter-way.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 5,
-                "incorrect_solution": -2,
-                "nonsolution_hint": -3,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "palms-shadow{label: Zurück zur Oase}"
-        },
-        "dark-tunnel": {
-            "name": "Der Stollen",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Der Stollen",
-                "body": "{file:9-dark-tunnel.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "jail001-de",
-            "points": {
-                "enter": 2,
-                "incorrect_solution": -5,
+          },
+          "quest": "",
+          "points": {
+                "enter": 10,
+                "incorrect_solution": 0,
                 "nonsolution_hint": -5,
                 "solution_hint": -10,
                 "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
+                   "1": null,
+                   "2": null,
+                   "3": null
                 }
-            },
-            "solution":{
+          },
+          "solution":{
                 "casesensitive": false,
                 "trim": true,
                 "substring": true,
                 "strip_whitespaces": true
-            },
-            "next": "exit-this-way{label:Zum Ausgaben gehen}"
-        },
-        "exit-this-way": {
-            "name": "Der Ausgang",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Der Ausgang",
-                "body": "{file:10-exit.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "knight001-de",
-            "points": {
-                "enter": 2,
-                "incorrect_solution": -5,
-                "nonsolution_hint": -5,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "palms-shadow{label: Zurück zur Oase}"
-        },
-        "night-sky": {
-            "name": "Abendhimmel",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Der Abendhimmel",
-                "body": "{file:11-night-sky.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "sundisc003-de",
-            "points": {
-                "enter": 2,
-                "incorrect_solution": -5,
-                "nonsolution_hint": -5,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "constellation{label:Weiter in Richtung Zivilisation}"
-        },
-        "constellation": {
-            "name": "Sternenbilder",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Sternenbilder",
-                "body": "{file:12-constellation.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "starsky001-de",
-            "points": {
-                "enter": 2,
-                "incorrect_solution": -5,
-                "nonsolution_hint": -5,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": "back-to-civilisation{label:Weiter in Richtung Zivilisation}"
-        },
-        "back-to-civilisation": {
-            "name": "Zivilisation",
-            "description": "",
-            "content": {
-                "title": "%%%variable:title%%%",
-                "subtitle": "%%%variable:subtitle%%%",
-                "header": "Zurück in Dubai",
-                "body": "{file:13-dubai.txt}"
-            },
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 0,
-                "incorrect_solution": -5,
-                "nonsolution_hint": -5,
-                "solution_hint": -10,
-                "hints" : {
-                    "1": -5,
-                    "2": -5,
-                    "3": -5,
-                    "4": -5,
-                    "5": -5
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true,
-                "strip_whitespaces": true
-            },
-            "next": ""
-        }
+          },
+          "next": "2-laufband{label:Ihr folgt Three-E}"
+       }
     }
-}
+ }
