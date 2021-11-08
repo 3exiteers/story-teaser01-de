@@ -94,6 +94,39 @@
                 "strip_whitespaces": true
           },
           "next": "2-laufband{label:Ihr folgt Three-E}"
-       }
+       },
+       "2-laufband":{
+            "name": "Digitalisierung",
+            "description": "The preparation",
+            "content": {
+                  "title": "%%%variable:title%%%",
+                  "subtitle": "%%%variable:subtitle%%%",
+                  "header": "Onboarding in der Weihnachtsfabrik",
+                  "body": "{file:1-start.txt}"
+            },
+            "timer": {
+                  "minutes": 0,
+                  "next": ""
+            },
+            "quest": "teaser01a-de",
+            "points": {
+                  "enter": 10,
+                  "incorrect_solution": 0,
+                  "nonsolution_hint": -5,
+                  "solution_hint": -10,
+                  "hints" : {
+                     "1": null,
+                     "2": null,
+                     "3": null
+                  }
+            },
+            "solution":{
+                  "casesensitive": false,
+                  "trim": true,
+                  "substring": true,
+                  "strip_whitespaces": true
+            },
+            "next": ""
+      }
     }
  }
