@@ -102,7 +102,7 @@
                   "title": "%%%variable:title%%%",
                   "subtitle": "%%%variable:subtitle%%%",
                   "header": "Onboarding in der Weihnachtsfabrik",
-                  "body": "{file:1-start.txt}"
+                  "body": "Dies ist ein Text"
             },
             "timer": {
                   "minutes": 0,
