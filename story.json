@@ -192,7 +192,7 @@
                   "substring": true,
                   "strip_whitespaces": true
             },
-            "next": "2-passwort-done"
+            "next": "2-hacking-done"
          },
          "2-hacking-done":{
               "name": "Digitalisierung",
