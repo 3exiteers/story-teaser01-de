@@ -1,4 +1,4 @@
-[blockquote:{filename:assets/3e.png}{content:<p> Wir freuen uns, dass ihr unser Exit Game spielt. Wir möchten euch vorab gerne einige ergänzende Hinweise geben. Diese sind nicht relevant für die Geschichte, jedoch unterstützen diese das Erlebnis.</p>}]
+[blockquote:{filename:assets/3e-stars-hs.png}{content:<p> Wir freuen uns, dass ihr unser Exit Game spielt. Wir möchten euch vorab gerne einige ergänzende Hinweise geben. Diese sind nicht relevant für die Geschichte, jedoch unterstützen diese das Erlebnis.</p>}]
 
 <p>&nbsp;</p>
 
