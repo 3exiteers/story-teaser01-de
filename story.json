@@ -60,15 +60,48 @@
                 "substring": true,
                 "strip_whitespaces": true
           },
-          "next": "1-next{label:Spiel starten!}"
+          "next": "0-prequel{label:Spiel starten!}"
        },
-       "1-next":{
-          "name": "Digitalisierung",
-          "description": "The preparation",
+       "0-prequel":{
+            "name": "Digitalisierung",
+            "description": "The preparation",
+            "content": {
+                  "title": "%%%variable:title%%%",
+                  "subtitle": "%%%variable:subtitle%%%",
+                  "header": "Onboarding in der Weihnachtsfabrik",
+                  "body": "{file:1-start.txt}"
+            },
+            "timer": {
+                  "minutes": 0,
+                  "next": ""
+            },
+            "quest": "teaser01a-de",
+            "points": {
+                  "enter": 10,
+                  "incorrect_solution": 0,
+                  "nonsolution_hint": -5,
+                  "solution_hint": -10,
+                  "hints" : {
+                     "1": null,
+                     "2": null,
+                     "3": null
+                  }
+            },
+            "solution":{
+                  "casesensitive": false,
+                  "trim": true,
+                  "substring": true,
+                  "strip_whitespaces": true
+            },
+            "next": "1-passwort"
+         },
+       "1-passwort":{
+          "name": "Das Passwort",
+          "description": "Das Passwort",
           "content": {
                 "title": "%%%variable:title%%%",
                 "subtitle": "%%%variable:subtitle%%%",
-                "header": "Onboarding in der Weihnachtsfabrik",
+                "header": "Das verlorene Passwort zum Framework",
                 "body": "{file:1-start.txt}"
           },
           "timer": {
@@ -93,9 +126,9 @@
                 "substring": true,
                 "strip_whitespaces": true
           },
-          "next": "2-laufband{label:Ihr folgt Three-E}"
+          "next": "2-passwort-done"
        },
-       "2-laufband":{
+       "1-passwort-done":{
             "name": "Digitalisierung",
             "description": "The preparation",
             "content": {
@@ -127,6 +160,72 @@
                   "strip_whitespaces": true
             },
             "next": ""
-      }
+      },
+      "2-hacking":{
+            "name": "Das Passwort",
+            "description": "Das Passwort",
+            "content": {
+                  "title": "%%%variable:title%%%",
+                  "subtitle": "%%%variable:subtitle%%%",
+                  "header": "Das verlorene Passwort zum Framework",
+                  "body": "{file:2-hacking.txt}"
+            },
+            "timer": {
+                  "minutes": 0,
+                  "next": ""
+            },
+            "quest": "teaser01b-de",
+            "points": {
+                  "enter": 10,
+                  "incorrect_solution": 0,
+                  "nonsolution_hint": -5,
+                  "solution_hint": -10,
+                  "hints" : {
+                     "1": null,
+                     "2": null,
+                     "3": null
+                  }
+            },
+            "solution":{
+                  "casesensitive": false,
+                  "trim": true,
+                  "substring": true,
+                  "strip_whitespaces": true
+            },
+            "next": "2-passwort-done"
+         },
+         "2-hacking-done":{
+              "name": "Digitalisierung",
+              "description": "The preparation",
+              "content": {
+                    "title": "%%%variable:title%%%",
+                    "subtitle": "%%%variable:subtitle%%%",
+                    "header": "Onboarding in der Weihnachtsfabrik",
+                    "body": "Dies ist ein Text"
+              },
+              "timer": {
+                    "minutes": 0,
+                    "next": ""
+              },
+              "quest": "teaser01a-de",
+              "points": {
+                    "enter": 10,
+                    "incorrect_solution": 0,
+                    "nonsolution_hint": -5,
+                    "solution_hint": -10,
+                    "hints" : {
+                       "1": null,
+                       "2": null,
+                       "3": null
+                    }
+              },
+              "solution":{
+                    "casesensitive": false,
+                    "trim": true,
+                    "substring": true,
+                    "strip_whitespaces": true
+              },
+              "next": ""
+        }
     }
  }
