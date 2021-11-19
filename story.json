@@ -204,8 +204,8 @@
                     "body": "{file:2-clock-done.txt}"
               },
               "timer": {
-                    "minutes": 0,
-                    "next": ""
+                    "minutes": 10,
+                    "next": "3-hacking"
               },
               "quest": "",
               "points": {

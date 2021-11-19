@@ -1,3 +1,4 @@
-(Hier timer einbauen - Ja meine Uhr funktioniert wieder!)
+[blockquote:{filename:assets/Three-E_Herz.png}{content:<p>Das ist ja gerade noch mal gut gegangen! Auch wenn ich mich ein bisschen dafür schäme, dass du meine privaten Teile gesehen hast! Zumindest kennen wir uns jetzt auf einem ganz andere Niveau.</p> <p>Jetzt funktioniert der Timer auch! Ich habe ihn direkt mal eingebaut. Wenn der abläuft kann sogar auf ein anderes Kapitel verweisen, das habe ich jetzt aber mal nicht gemacht. Ich fühle mich immer noch etwas instabil.</p>}]
+<p> Das Zwinkern von Three-E hat dich ein bisschen aus dem Konzept gebracht, daher bittest du darum die Tour schnell fortzusetzen!</p>
 
 [confetti:{particlecount:10}{ticks:300}{duration:1}{spread:140}{drift:0.5}{angle:90}{originy:0.6}]
