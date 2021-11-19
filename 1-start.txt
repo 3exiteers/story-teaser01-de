@@ -1,1 +1,1 @@
-[blockquote:{filename:assets/3e_stars-hs.png}{content:<p>Hallo! Freut mich dich kennen zu lernen, ich heiße 'Three-E' und bin der digitale Teil der '3Exiteers'.}]
+[blockquote:{filename:assets/3e-stars-hs.png}{content:<p>Hallo! Freut mich dich kennen zu lernen, ich heiße 'Three-E' und bin der digitale Teil der '3Exiteers'.}]
