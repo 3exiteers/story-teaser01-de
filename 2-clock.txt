@@ -1,2 +1,1 @@
-[blockquote:{filename:assets/ups.png}{content:<p>Ohm... eigentlich sollte hier ein Timer sein - irgendwas ist schiefgelaufen! Ich versuche es noch e - n - mal SADIJAS)%)%)$§$§%$%$ bzzzzz</p>}]
-[image:{filename:gif-error.gif}]
+[blockquote:{filename:gif-error.gif}{content:<p>Ohm... eigentlich sollte hier ein Timer sein - irgendwas ist schiefgelaufen! Ich versuche es noch e - n - mal SADIJAS)%)%)$§$§%$%$ bzzzzz</p>}]
