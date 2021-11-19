@@ -1,4 +1,4 @@
 [blockquote:{filename:assets/ups.png}{content:<p>Ohm... eigentlich sollte hier ein Timer sein - irgendwas ist schiefgelaufen! Ich versuche es noch e - n - mal SADIJAS)%)%)$§$§%$%$ bzzzzz</p>}]
 [image:{filename:gif-error.gif}{width:30%}]
-<p>Aus den Störgeräuschen, die Three-E von sich gibt, könnt ihr gerade noch ein paar Worte heraushören: Meine... inter- Uhr --- nicht mehr -- hil--. Es öffnet sich eine Klappte bei Three-E und ihr könnt sein Mainboard erkennen.</p> 
+<p>Aus den Störgeräuschen, die Three-E von sich gibt, könnt ihr gerade noch ein paar Worte heraushören: Meine... inter- Uhr --- nicht mehr -- hil--. Es öffnet sich eine Klappte bei Three-E und ihr könnt seie interne Hardware erkennen.</p> 
 <p>Da Three-E irgendetwas mit einer internen Uhr meinte guckt ihr euch zuerst das Mainboard an. Euch fällt auch direkt auf, dass eine der internen Uhren nicht richtig eingestellt ist. Diese müssen sequentiell ablaufen - was ist wohl der Code für die richtige Einstellung der nächsten Uhr?</p>
