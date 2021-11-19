@@ -1,0 +1,3 @@
+(Hier timer einbauen - Ja meine Uhr funktioniert wieder!)
+
+[confetti:{particlecount:10}{ticks:300}{duration:1}{spread:140}{drift:0.5}{angle:90}{originy:0.6}]
