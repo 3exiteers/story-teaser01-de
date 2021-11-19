@@ -195,12 +195,12 @@
             "next": "2-clock-done"
          },
          "2-clock-done":{
-              "name": "Digitalisierung",
-              "description": "The preparation",
+              "name": "Three-E repariert",
+              "description": "Three-E repariert",
               "content": {
                     "title": "%%%variable:title%%%",
                     "subtitle": "%%%variable:subtitle%%%",
-                    "header": "Onboarding in der Weihnachtsfabrik",
+                    "header": "Three-E funktioniert wieder!",
                     "body": "{file:2-clock-done.txt}"
               },
               "timer": {
