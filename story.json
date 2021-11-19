@@ -126,7 +126,7 @@
                 "substring": true,
                 "strip_whitespaces": true
           },
-          "next": "2-passwort-done"
+          "next": "1-passwort-done"
        },
        "1-passwort-done":{
             "name": "Digitalisierung",
