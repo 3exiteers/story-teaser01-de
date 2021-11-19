@@ -135,13 +135,13 @@
                   "title": "%%%variable:title%%%",
                   "subtitle": "%%%variable:subtitle%%%",
                   "header": "Onboarding in der Weihnachtsfabrik",
-                  "body": "Dies ist ein Text"
+                  "body": "{file:1-passwort-done.txt}"
             },
             "timer": {
                   "minutes": 0,
                   "next": ""
             },
-            "quest": "teaser01a-de",
+            "quest": "",
             "points": {
                   "enter": 10,
                   "incorrect_solution": 0,
@@ -201,7 +201,7 @@
                     "title": "%%%variable:title%%%",
                     "subtitle": "%%%variable:subtitle%%%",
                     "header": "Onboarding in der Weihnachtsfabrik",
-                    "body": "Dies ist ein Text"
+                    "body": "{file:2-clock-done.txt}"
               },
               "timer": {
                     "minutes": 0,
@@ -234,7 +234,7 @@
                   "title": "%%%variable:title%%%",
                   "subtitle": "%%%variable:subtitle%%%",
                   "header": "Onboarding in der Weihnachtsfabrik",
-                  "body": "Dies ist ein Text"
+                  "body": "{file:3-hacking.txt}"
             },
             "timer": {
                   "minutes": 0,
@@ -267,7 +267,7 @@
                   "title": "%%%variable:title%%%",
                   "subtitle": "%%%variable:subtitle%%%",
                   "header": "Onboarding in der Weihnachtsfabrik",
-                  "body": "Dies ist ein Text"
+                  "body": "{file:3-hacking-done.txt}"
             },
             "timer": {
                   "minutes": 0,
