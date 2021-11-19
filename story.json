@@ -60,7 +60,7 @@
                 "substring": true,
                 "strip_whitespaces": true
           },
-          "next": "0-prequel{label:Spiel starten!}"
+          "next": "1-passwort{label:Spiel starten!}"
        },
        "0-prequel":{
             "name": "Digitalisierung",
