@@ -162,12 +162,12 @@
             "next": "2-clock"
       },
       "2-clock":{
-            "name": "Das Passwort",
-            "description": "Das Passwort",
+            "name": "Timer",
+            "description": "Timer",
             "content": {
                   "title": "%%%variable:title%%%",
                   "subtitle": "%%%variable:subtitle%%%",
-                  "header": "Das verlorene Passwort zum Framework",
+                  "header": "Der Timer... oder auch nicht!",
                   "body": "{file:2-clock.txt}"
             },
             "timer": {
