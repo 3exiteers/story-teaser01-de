@@ -1,3 +1,3 @@
 [blockquote:{filename:assets/gluecklich.png}{content:<p>Zuletzt zeige ich dir noch unser Framework, welches Open Source ist. Die Quests und die Story sind alle seperat über JSONS definiert. Diese sind so aufgebaut, dass jeder auch seine eigenen Exit Games erstellen kann, solange er das Grundgerüst benutzt.</p> <p>Hier findest du die tollste übersicht von unserem Framework, die es überhaupt gibt - natürlich ganz toll visuell dargestellt und mit vielen Animationen... Die Frage ist nur, wo die Darstellung hin ist?</p>}]
 
-<p>//TODO: Framework Open Source Showcase implementieren</p>
+<p>//TODO: Framework Open Source Showcase einfügen</p>
