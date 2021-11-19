@@ -1,1 +1,2 @@
-[blockquote:{filename:assets/3e-stars-hs.png}{content:<p>Hallo! Freut mich dich kennen zu lernen, ich heiße <strong> Three-E </strong> und bin der digitale Teil der '3Exiteers'. Du willst }]
+[blockquote:{filename:assets/3e-stars-hs.png}{content:<p>Hallo! Freut mich dich kennen zu lernen, ich heiße <strong> Three-E </strong> und bin der digitale Teil der '3Exiteers'. Du bist doch bestimmt hier, da du einen kleinen Einblick in unsere Exit Games und das Framework haben willst, nicht wahr?}]
+
