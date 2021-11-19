@@ -161,14 +161,14 @@
             },
             "next": ""
       },
-      "2-hacking":{
+      "2-clock":{
             "name": "Das Passwort",
             "description": "Das Passwort",
             "content": {
                   "title": "%%%variable:title%%%",
                   "subtitle": "%%%variable:subtitle%%%",
                   "header": "Das verlorene Passwort zum Framework",
-                  "body": "{file:2-hacking.txt}"
+                  "body": "{file:2-clock.txt}"
             },
             "timer": {
                   "minutes": 0,
@@ -176,7 +176,7 @@
             },
             "quest": "teaser01b-de",
             "points": {
-                  "enter": 10,
+                  "enter": 0,
                   "incorrect_solution": 0,
                   "nonsolution_hint": -5,
                   "solution_hint": -10,
@@ -192,9 +192,9 @@
                   "substring": true,
                   "strip_whitespaces": true
             },
-            "next": "2-hacking-done"
+            "next": "2-clock-done"
          },
-         "2-hacking-done":{
+         "2-clock-done":{
               "name": "Digitalisierung",
               "description": "The preparation",
               "content": {
@@ -207,7 +207,7 @@
                     "minutes": 0,
                     "next": ""
               },
-              "quest": "teaser01a-de",
+              "quest": "",
               "points": {
                     "enter": 10,
                     "incorrect_solution": 0,
@@ -225,7 +225,73 @@
                     "substring": true,
                     "strip_whitespaces": true
               },
-              "next": ""
-        }
+              "next": "3-hacking"
+        },
+        "3-hacking":{
+            "name": "Digitalisierung",
+            "description": "The preparation",
+            "content": {
+                  "title": "%%%variable:title%%%",
+                  "subtitle": "%%%variable:subtitle%%%",
+                  "header": "Onboarding in der Weihnachtsfabrik",
+                  "body": "Dies ist ein Text"
+            },
+            "timer": {
+                  "minutes": 0,
+                  "next": ""
+            },
+            "quest": "teaser01c-de",
+            "points": {
+                  "enter": 0,
+                  "incorrect_solution": 0,
+                  "nonsolution_hint": -5,
+                  "solution_hint": -10,
+                  "hints" : {
+                     "1": null,
+                     "2": null,
+                     "3": null
+                  }
+            },
+            "solution":{
+                  "casesensitive": false,
+                  "trim": true,
+                  "substring": true,
+                  "strip_whitespaces": true
+            },
+            "next": "3-hacking-done"
+      },
+      "3-hacking-done":{
+            "name": "Digitalisierung",
+            "description": "The preparation",
+            "content": {
+                  "title": "%%%variable:title%%%",
+                  "subtitle": "%%%variable:subtitle%%%",
+                  "header": "Onboarding in der Weihnachtsfabrik",
+                  "body": "Dies ist ein Text"
+            },
+            "timer": {
+                  "minutes": 0,
+                  "next": ""
+            },
+            "quest": "",
+            "points": {
+                  "enter": 10,
+                  "incorrect_solution": 0,
+                  "nonsolution_hint": -5,
+                  "solution_hint": -10,
+                  "hints" : {
+                     "1": null,
+                     "2": null,
+                     "3": null
+                  }
+            },
+            "solution":{
+                  "casesensitive": false,
+                  "trim": true,
+                  "substring": true,
+                  "strip_whitespaces": true
+            },
+            "next": ""
+      }
     }
  }
