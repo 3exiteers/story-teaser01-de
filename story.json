@@ -129,12 +129,12 @@
           "next": "1-passwort-done"
        },
        "1-passwort-done":{
-            "name": "Digitalisierung",
+            "name": "Passwort gefunden",
             "description": "The preparation",
             "content": {
                   "title": "%%%variable:title%%%",
                   "subtitle": "%%%variable:subtitle%%%",
-                  "header": "Onboarding in der Weihnachtsfabrik",
+                  "header": "Passwort gefunden!",
                   "body": "{file:1-passwort-done.txt}"
             },
             "timer": {
@@ -159,7 +159,7 @@
                   "substring": true,
                   "strip_whitespaces": true
             },
-            "next": ""
+            "next": "2-clock"
       },
       "2-clock":{
             "name": "Das Passwort",
