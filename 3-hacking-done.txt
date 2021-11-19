@@ -1,3 +1,4 @@
+[blockquote:{filename:assets/3e-stars-hs.png}{content:<p>Super, du hast es anscheinend selber geschafft herauszufinden wo unser Open Source Framework liegt. Bei Fragen, oder wenn du Lust auf ein Exit Game gekriegt hast, dann melde dich gerne bei uns unter <strong>access@3exiteers.de</strong>. </p> <p>Unsere Spiele sind für Team mit einer größe von 3-7 Leuten ausgelegt und können von bis zu 10 Teams gelichzeitig gespielt werden. Gerne kümmern wir uns auch um das ganze drumherum (Planung, Technik, Haptische Elemente, CI Anpassung und so weiter).</p>}]
 
 
 [confetti:{particlecount:10}{ticks:300}{duration:1}{spread:140}{drift:0.5}{angle:90}{originy:0.6}]
