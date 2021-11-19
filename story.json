@@ -228,12 +228,12 @@
               "next": "3-hacking"
         },
         "3-hacking":{
-            "name": "Digitalisierung",
-            "description": "The preparation",
+            "name": "Open Source",
+            "description": "Open Source",
             "content": {
                   "title": "%%%variable:title%%%",
                   "subtitle": "%%%variable:subtitle%%%",
-                  "header": "Onboarding in der Weihnachtsfabrik",
+                  "header": "Das Open Source Framework",
                   "body": "{file:3-hacking.txt}"
             },
             "timer": {
@@ -261,12 +261,12 @@
             "next": "3-hacking-done"
       },
       "3-hacking-done":{
-            "name": "Digitalisierung",
-            "description": "The preparation",
+            "name": "Tour Fertig",
+            "description": "Tour Fertig",
             "content": {
                   "title": "%%%variable:title%%%",
                   "subtitle": "%%%variable:subtitle%%%",
-                  "header": "Onboarding in der Weihnachtsfabrik",
+                  "header": "Das war es mit der Tour",
                   "body": "{file:3-hacking-done.txt}"
             },
             "timer": {
